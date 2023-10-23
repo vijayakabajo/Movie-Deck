@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Deck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h2>MOVIE DECK</h2>
+        </div>
+        <div id="search-sort">
+            <input type="text" id="search" placeholder="Search by Name">
+            <select id="sort" title="rating">
+                <option>Rating-Ascending</option>
+                <option>Rating-Descending</option>
+                <option>Release Date-Ascending</option>
+                <option>Release Date-Descending</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="movie-poster" class="card" id="card1">
+                <img src="movie1.jpg" alt="Movie 1">
+                <h2 id="movie-title"></h2>
+                <button id="showMore1">Show More</button>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <p id="footer-text">&copy;2023 Movie Deck</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
